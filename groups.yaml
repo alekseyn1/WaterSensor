@@ -1,0 +1,10 @@
+watersensors:
+  name: Water Sensors
+  control: hidden
+  view: no
+  icon: mdi:water
+  entities:
+    - binary_sensor.water_sensor_master_bathroom
+    - binary_sensor.water_sensor_kids_bathroom
+    - binary_sensor.water_sensor_downstairs_bathroom
+    - binary_sensor.water_sensor_spare

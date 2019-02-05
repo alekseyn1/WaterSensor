@@ -1,0 +1,29 @@
+#water leak sensors ---------------------------------------------------------
+  - platform: mqtt
+    name: "Water Sensor Master Bathroom"
+    icon: mdi:water
+    state_topic: "alarm/water/1/status"
+    payload_on: "on"
+    payload_off: "off"
+    device_class: moisture
+  - platform: mqtt
+    name: "Water Sensor Kids Bathroom"
+    icon: mdi:water
+    state_topic: "alarm/water/2/status"
+    payload_on: "on"
+    payload_off: "off"
+    device_class: moisture
+  - platform: mqtt
+    name: "Water Sensor Downstairs Bathroom"
+    icon: mdi:water
+    state_topic: "alarm/water/3/status"
+    payload_on: "on"
+    payload_off: "off"
+    device_class: moisture
+  - platform: mqtt
+    name: "Water Sensor Spare"
+    icon: mdi:water
+    state_topic: "alarm/water/4/status"
+    payload_on: "on"
+    payload_off: "off"
+    device_class: moisture

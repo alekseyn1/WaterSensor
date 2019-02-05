@@ -1,0 +1,34 @@
+####################################################
+#                                                  #
+#   Flash Lights if Water Leak Sensor triggered    #
+#                                                  #
+####################################################
+
+- id: flash_lights_leak_alarm
+  alias: "Water Leak Sensors Triggered"
+  trigger:
+    - platform: state
+      entity_id: group.watersensors
+      from: 'off'
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: script.alarm_dishwasher
+      state: 'off'
+  action:
+    # start alarm if alarm activated and the alarm is not triggered
+    - service: script.turn_on
+      entity_id: script.alarm_water_leak
+    - service: switch.turn_on
+      entity_id: switch.main_water_valve
+    - service: notify.telegram
+      data:
+        message: "WATER LEAK DETECTED! Shutting off Main Water Valve."
+    - service: media_player.alexa_tts
+      data_template:
+        entity_id: media_player.living_room
+        message: "Warning!.... Warning!..... Water Leak Detected. Shutting off main water valve in the basement!  Warning!.... Warning!..... Water Leak Detected. Shutting off main water valve in the basement!"
+    #turn off valve actuator after 30 seconds. It takes around 10 to close the valve. This leaves the valve off but turns off Sonoff that controls it.
+    - delay: 00:00:30
+    - service: switch.turn_off
+      entity_id: switch.main_water_valve
