@@ -41,7 +41,7 @@ Here is the final connection diagram:
 
 ESP-01 code and Home Assistant samples are in the files of this repository.
 
-So, the end result works like this: once water is closing the sensor probes (basically two wires sticking out), the switch turns on ESP-01 and ESP-01 sends an MQTT message with 'on' to a topic and then goes into a deep sleep. All other actions are triggered in Home Assistant using automations and scripts.
+**So, the end result works like this: once water is closing the sensor probes (basically two wires sticking out), the switch turns on ESP-01 and ESP-01 boots up and sends an MQTT message with 'on' to a topic and then goes into a deep sleep. The whole process takes about 3 seconds in my case. All other actions are triggered in Home Assistant using automations and scripts.**
 
 In my setup, Home Assistant will then send a command to the dry contact switch (<a href="https://www.chatteris.biz/blog/sonoff-basic-voltage-free-relay-changeover-modification/" target="_blank">modified Sonoff</a>) to close the Electric Manipulator Shut Off Valve gizmo that I purchased on Amazon. I retrofitted a polarity switch and power input jack. 
 
