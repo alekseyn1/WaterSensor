@@ -1,6 +1,6 @@
-MQTT Water Sensor
+#MQTT Wireless Water Sensor
 
-Inspired by the work by 
+Inspired by the work of 
 - Rob from The Hookup - https://www.youtube.com/watch?v=2kLZ7DlP9KU and 
 - Peter Jennings - http://benlo.com/esp8266/esp8266WaterAlarm.html
 
@@ -48,4 +48,6 @@ In my setup, Home Assistant will then send a command to the dry contact switch (
 <img src="http://relit.ca/wp-content/uploads/2019/02/Electric-Automatic-Manipulator-Shut-Off-Valve-for-Alarm-Gas-Water-Pipeline-Security-Device-Assortment-12V-1.jpg"/>
 
 Here is the video with the setup.
+https://www.youtube.com/watch?v=RAxCV2L04LM
+
 [![Watch the video](https://img.youtube.com/vi/RAxCV2L04LM/sddefault.jpg)](https://www.youtube.com/watch?v=RAxCV2L04LM)
