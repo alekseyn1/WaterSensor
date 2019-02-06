@@ -34,6 +34,8 @@ I contacted Peter and he confirmed that in a standby mode the switch was not con
 Here is how you hook up ESP-01 to FTDI:
 <img src="http://1.bp.blogspot.com/-2zMMrsmzNVk/VzkpezD6j2I/AAAAAAAAFNE/VU5DisFVRMMaz1S0S7R-j8CTe0j_ot8sACK4B/s1600/Circuito-ESP8266-ESP-01-FTDI-FT232.png"/>
 
+Then flash it using the ESP-01_Water_Sensor.ino file
+
 Here is the final connection diagram:
 <img src="http://benlo.com/esp8266/Water_Sensor_ESP8266_Circuit.jpg"/>
 
