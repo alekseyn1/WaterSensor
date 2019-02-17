@@ -42,9 +42,9 @@ Here is the final connection diagram:
 ESP-01 code and Home Assistant samples are in the files of this repository.
 
 Here is the video with the final look of the sensor.
-https://www.youtube.com/watch?v=RAxCV2L04LM
+https://www.youtube.com/watch?v=JGjHACm81ME
 
-[![Watch the video](https://img.youtube.com/vi/RAxCV2L04LM/hqdefault.jpg)](https://www.youtube.com/watch?v=RAxCV2L04LM)
+[![Watch the video](https://img.youtube.com/vi/JGjHACm81ME/hqdefault.jpg)](https://www.youtube.com/watch?v=JGjHACm81ME)
 
 **So, the end result works like this: once water is closing the sensor probes (basically two wires sticking out), the switch turns on ESP-01 and ESP-01 boots up and sends an MQTT message with 'on' to a topic and then goes into a deep sleep. The whole process takes about 3 seconds in my case. All other actions are triggered in Home Assistant using automations and scripts.**
 
