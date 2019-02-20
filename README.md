@@ -21,7 +21,7 @@ Then I ran into Rob's (The Hookup) window sensor - https://www.youtube.com/watch
 
 I found a few circuits that could work for my purpose but I do not have enouth electronics knowledge to convert those to work from a 3 volt battery. Circuit one below could work, but I have not tried it yet.
 
-<img src="https://cdn.instructables.com/FGO/5G9D/FH9ZFLVQ/FGO5G9DFH9ZFLVQ.LARGE.jpg?auto=webp&width=400"/><img src="https://cdn.instructables.com/FVT/Z80Z/FHOHJJMD/FVTZ80ZFHOHJJMD.LARGE.jpg?auto=webp&width=300"/>
+<img src="https://cdn.instructables.com/FGO/5G9D/FH9ZFLVQ/FGO5G9DFH9ZFLVQ.LARGE.jpg?auto=webp&width=400"/>
 
 Source - https://www.instructables.com/id/Simple-Water-Sensor/
 
