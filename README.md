@@ -19,8 +19,7 @@ Out of the box solutions like Xiaomi sensors were not acceptable since they use 
 
 Then I ran into Rob's (The Hookup) window sensor - https://www.youtube.com/watch?v=BoYVr2UwWWg  I immediately tried his setup but instead of the reed switch I was hoping to use water to complete the cirquit. No luck. Water is not a good conductor in this case. So I had to look elsewhere. But I took his code for ESP-01 and modified it slightly ("on/off" instead of "open/close" although this modificatin might not be required). 
 
-I found a few circuits that could work for my purpose but I do not have enouth electronics knowledge to convert those to work from a 3 volt battery. Circuit one below could work, but I have not tried it yet.
-
+I found a few circuits that could work for my purpose but I do not have enouth electronics knowledge to check if they are functional.
 <img src="https://cdn.instructables.com/FGO/5G9D/FH9ZFLVQ/FGO5G9DFH9ZFLVQ.LARGE.jpg?auto=webp&width=400"/>
 
 Source - https://www.instructables.com/id/Simple-Water-Sensor/
